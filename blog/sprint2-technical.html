@@ -1,27 +1,113 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stories and Legends (PAGE title) </title>
+    <title>Keith's Dev Blog | Home</title>
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../styles/sprint2-technical.css" rel="stylesheet" type="text/css">
   </head>
   
-  <body>
-    <h1>The Story of Te Houtaewa (PAGE heading)</h1>
-    <h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em> (Optional SUB title) </h2>
-    <h3>10 November 2010</h3>
-    
-    <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
-    </p>
-    <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
-    </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
-    </p>
-    
-    <!-- this is a comment. -->
   
+  <body>
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>FAQ</li></a>
+            <a href="#"><li>SiteMap</li></a>
+            <a href="#"><li>Login</li></a>          
+        </ul>
+        </div>
+      </div>
+    </nav>
+      <div id="intro">
+       <h1>What is the differences between relative, absolute, and fixed positioning when it comes to positioning elements</h1>
+        <br>
+        <header><h2>Published by Keith on 26 April 2019</h2></header>
+      </div>
+    <br><hr><br>
+    <div id="information">
+    <h2>There are many occasions where people get confused with the element positioning concepts. I have been confused with this concept too and this blog post is for those of you that have been in the same situation as me.
+      <br><br>
+    Firstly, I would like to start off with the basic css properties before explaining differences between each of the position properties.
+    </h2>
+    <br><hr><br>
+    <div class="firstp">
+      <h3>Basics of CSS properties</h3>
+      <br><br>
+      <p>
+        <div class="intro">There are 4 CSS properties:</div>
+        <br><br>
+        <ol>
+          <li>Top</li>
+          <li>Right</li>
+          <li>Bottm</li>
+          <li>Left</li>
+        </ol>
+      <br><br><br>
+        <div class="leftbox">
+      <b>Top</b>: Using the top property, you can push your element down from the top. For Example:
+      <br><br>
+      <img src="Top.png" alt="Topimg"> 
+      <br><br><br>
+      <b>Right</b>: Right property pushes the element from the right to the left. For Example:
+      <br><br>
+      <img src="Right.png" alt="Rightimg">
+        </div>
+        <div class="rightbox">
+      <br><br><br>  
+      <b>Bottom</b>: Bottom property when unlocked using the position attribute gives the privilege to push the element from the bottom to the top. For Example:
+      <br><br>
+      <img src="Bottom.png" alt="Bottomimg">
+      <br><br><br>
+      <b>Left</b>: Left property pushes the element from the left to the right. For Example:
+      <br><br>
+      <img src="Left.png" alt="Leftimg">
+      </p>
+        </div>
+          </div>
+    <br><br>
+      <p>
+        Now we have gone through the <b>basic properties of CSS</b> let's move on to the <b>position properties</b>.
+      </p>
+      <br><hr><br>
+    <div class="secondp">
+      <h3>Relative</h3>
+      <br>
+      <p>
+        <b>Relative</b>: Making an HTML element relative, gives you the privilege to move the element from its current position. It does not refer to a different element’s position. For example:
+      </p>
+      <br>
+      <img src="Relative.png" alt="Relativeimg">
+      <img src="Relative-code.png" alt="Relativecode" width="250" height="300">
+    </div>
+      <br>  
+    <div class="thirdp">
+      <h3>Absolute</h3>
+      <br>
+      <p>
+        <b>Absolute</b>: Absolute positioning an HTML element positions the element to its nearest positioned parent. Thus it refers to the nearest parent’s position. For example:
+      </p>
+      <br>
+      <img src="Absolute.png" alt="Absoluteimg" height="300" width="400">
+      <img src="Absolute-code.png" alt="Absolutecode" width="250" height="400">
+    </div>
+      <br>
+    <div class="fourthp">
+      <h3>Fixed</h3>
+      <br>
+      <p>
+        <b>Fixed</b>: An HTML element positioned fixed is relative to the viewport and not to any other element.
+        <br><br>
+        <img src="Fixed-code.png" alt="Fixedcode" height="300" width="200">
+      </p>
+    </div>
+    </div>    
+
+    
+    
+   
+  <br><br><br><br><br><br>  
+  <footer>Copyright&#169;</footer>
   </body>
 </html>
