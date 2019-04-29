@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* index.html */
+
+#header h1 {
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: blueviolet;
+    background-image: url(../blog/img/wp.jpg);
+}
+
+.mid-section {
+    position: relative;
+    background: tomato;
+    height: 600px;
+    width: 100%;
+}
+
+.mid-section p {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.mid-section .subtitle p {
+    text-align: center;
+    font-size: 40px;
+    background: red;
+}
+
+.mid-section .sub-section p {
+    text-align: left;
+    font-size: 35px;
+}
+
+.mid-section footer p {
+    font-size: 15px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+/* cultural-1.html */
+
+.title-1 {
+    background-image: url(../blog/img/identity.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+}
+
+.title-1 p{
+    color: yellowgreen;
+    position: absolute;
+}
+/* cultural-2.html */
+
+.title-2 {
+    background-image: url(../blog/img/learning.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+}
+
+.title-2 p{
+    color: blueviolet;
+    position: absolute;
+}
+
+/* for all cultural.htmls */
+
+#paragraph {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: center;
+    position: relative;
+    text-align: left;
+    border: none 3px 3px 3px;
+    border-style: dotted;
+    border-color: blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.title-1 p,
+.title-2 p {
+    font-size: 50px; 
+    text-align: center;
+    margin: 20px;
+}
+
+.para-1,
+.para-2,
+.para-3,
+.para-4,
+.para-5,
+.para-6 {
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.para-1 p,
+.para-2 p,
+.para-3 p,
+.para-4 p,
+.para-5 p,
+.para-6 p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+
+/*for all */
+body {
+    background: skyblue;
+}
+
+.container {
+    width:100%;
+    padding:0 1em;
+    margin: 0 auto;
+}
+
+nav {
+    background:black;
+    color:white;
+}
+
+nav .nav-bar {
+    text-align:right;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: block;
+}
+
+nav ul li {
+    display:inline-block;
+    text-align: right;
+}
+
+nav ul li a {
+    display:inline-block;
+    padding:20px;
+    text-decoration:none;
+    color:white;
+}
+
+nav ul li a:hover{
+    background:white;
+    color:black;
+}
+
+/* sprint2-technical.html */
+
+#intro {
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+}
+
+#information {
+    position: relative;
+    margin-left: 30px;
+}
+
+#information h2{
+    border-style: solid;
+    border-color: indigo;
+    padding: 10px;
+    margin: -15px;
+    background: lightseagreen;
+    color: azure;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.firstp ol li{
+    list-style: circle;
+    font-size: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#intro {
+    background: skyblue;
+    color: whitesmoke;
+    text-align: left;
+}
+
+#intro header h2 {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 5px;
+    color: black;
+}
+
+.firstp h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.intro {
+    font-size: 30px;
+}
