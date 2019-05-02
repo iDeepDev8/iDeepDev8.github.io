@@ -76,6 +76,22 @@
     position: absolute;
 }
 
+/* cultural-3.html */
+
+.title-3 {
+    background-image: url(../blog/img/EQ.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+}
+
+.title-3 p{
+    color: brown;
+    position: absolute;
+}
+
 /* for all cultural.htmls */
 
 #paragraph {
@@ -92,7 +108,8 @@
 }
 
 .title-1 p,
-.title-2 p {
+.title-2 p,
+.title-3 p {
     font-size: 50px; 
     text-align: center;
     margin: 20px;
@@ -122,7 +139,7 @@
 
 /*for all */
 body {
-    background: skyblue;
+    background: lightgrey;
 }
 
 .container {
@@ -216,3 +233,46 @@ h3 {
 .intro {
     font-size: 30px;
 }
+
+/* sprint3-technical.html */
+
+#container {
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    max-width: 1525px;
+}
+
+#container h1 {
+    font-size: 40px;
+    background-color: aquamarine;
+    padding: 15px;
+    text-align: center;
+    color: brown;
+}
+
+#container .para-1 .Dom-img {
+    text-align: center;
+    left: 50%;
+}
+
+#container .para-2 h2 {
+    font-size: 40px;
+    background-color: blanchedalmond;
+    padding: 15px;
+    color: rgb(224, 36, 36);
+    border-radius: 50%;
+}
+
+#container .para-2 .Devtool-img {
+    text-align: center;
+    left: 50%;
+}
+
+.conclusion p {
+    font-size: 35px;
+    font-weight: bold;
+    color: tomato;
+}
+
