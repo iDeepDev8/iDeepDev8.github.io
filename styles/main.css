@@ -124,6 +124,22 @@
     position: absolute;
 }
 
+/* cultural-5.html */
+
+.title-6 {
+    background-image: url(../blog/img/core-skill.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+}
+
+.title-6 p {
+    color: orange;
+    position: absolute;
+}
+
 /* for all cultural.htmls */
 
 #paragraph {
@@ -143,7 +159,8 @@
 .title-2 p,
 .title-3 p,
 .title-4 p,
-.title-5 p {
+.title-5 p,
+.title-6 p {
     font-size: 50px; 
     text-align: center;
     margin: 20px;
@@ -205,7 +222,7 @@ nav ul li {
 
 nav ul li a {
     display:inline-block;
-    padding:20px;
+    padding:30px;
     text-decoration:none;
     color:white;
 }
